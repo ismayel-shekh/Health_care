@@ -5,6 +5,7 @@ import textwrap
 import google.generativeai as genai
 import requests
 from urllib.parse import urlparse, parse_qs
+from utils import get_coordinates, get_directions, get_gemini_response, get_hospital_details
 
 # Load environment variables
 load_dotenv()
